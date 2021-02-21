@@ -24,7 +24,6 @@ body {
 
 /* === INTRO/HEADER */
 .headerMenu {
-  width: 100%;
   display: flex;
   padding: 0 20px 0 32px;
 }
@@ -386,6 +385,14 @@ body {
 
 @media only screen and (min-width: 641px) {
   /* === INTRO */
+  .headerMenu {
+    min-width: 900px;
+  }
+
+  .container {
+    min-width: 1010px;
+  }
+
   .introLeftContent {
     width: 584px;
     color: #fff;
