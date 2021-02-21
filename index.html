@@ -7,12 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Jungle Challenger</title>
 </head>
 
 <body>
-  <section class="intro">
+  <section class="introBg">
     <div class="imgBgIntro"></div>
     <header class="headerMenu">
       <div class="logo">
@@ -31,47 +32,47 @@
       </ul>
 
       <div class="buttonsHeader">
-        <button>Become a Nanny Share Host</button>
+        <button class="becomeNannyButton">Become a Nanny Share Host</button>
         <a href="">Sign in</a>
       </div>
 
     </header>
-    <div class="container introContent">
-      <div class="leftContent">
-        <h1>Easily create or join a local nanny share with Hapu</h1>
-        <p>Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.</p>
+    <div class="container introContainer">
+      <div class="introLeftContent">
+        <h1 class="introTitle">Easily create or join a local nanny share with Hapu</h1>
+        <p class="introContent">Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.</p>
         <div class="mediaPlayer">
           <a href=""><img src="img/intro-play-button.svg" alt="Start button"></a>
-          <p>See hapu in action (27 seconds)</p>
+          <p class="mediaPlayerContent">See hapu in action (27 seconds)</p>
         </div>
       </div>
-      <div class="rightContent">
+      <div class="introRightContent">
         <img src="img/intro-content-img.png" alt="Joined plataform">
       </div>
     </div>
   </section>
 
   <div class="note">
-    <img src="img/note-sarah-photo.png" alt="Srah's photo">
-    <a href="">Sarah’s day care available now in North Sydney</a>
+    <img src="img/note-sarah-photo.png" alt="Sarah's photo">
+    <a href="" class="link">Sarah’s day care available now in North Sydney</a>
     <p>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
   </div>
 
   <section class="aboutService">
-    <div class="container shareHome">
+    <div class="container shareHomeContainer">
       <div class="shareHomeText">
-        <h2>Share your home,</br> nanny and costs</h2>
-        <p>You have a fantastic home, a fantastic nanny and wouldn’t cutting your costs in half be, well, fantastic?! If only it was easy to connect with other parents to share your costs? Well now it is, with Hapu. <a href="">Hapu means tribe</a> and it’s our foundational 3 tribal principles that empowers you to create and manage your own tribe. A tribe that together has the power to create new affordable solutions in childcare that work for you and your community.</p>
-        <a href="">Ready to get started?</a>
+        <h2 class="title">Share your home,</br> nanny and costs</h2>
+        <p class="content">You have a fantastic home, a fantastic nanny and wouldn’t cutting your costs in half be, well, fantastic?! If only it was easy to connect with other parents to share your costs? Well now it is, with Hapu. <a href="" class="link">Hapu means tribe</a> and it’s our foundational 3 tribal principles that empowers you to create and manage your own tribe. A tribe that together has the power to create new affordable solutions in childcare that work for you and your community.</p>
+        <a href="" class="link">Ready to get started?</a>
       </div>
       <img src="img/about-nanny-location.png" alt="Nanny location">
     </div>
 
     <div class="separator"></div>
 
-    <div class="container findNanny">
-      <h3>Are you a parent without a nanny and looking to share?</h3>
-      <p>Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
+    <div class="container findNannyContainer">
+      <h3 class="secondTitle">Are you a parent without a nanny and looking to share?</h3>
+      <p class="secondContent">Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
       <form action="" class="formRegister">
         <input type="text" placeholder="Your name">
         <input type="email" placeholder="Your email">
@@ -81,32 +82,88 @@
 
     <div class="separator"></div>
 
-    <div class="container simplePayment">
+    <div class="container simplePaymentContainer">
       <img src="img/about-payment-interface.png" alt="Interface of payment">
       <div class="paymentText">
-        <h2>Shared payments made simple</h2>
-        <p>Sometimes it’s hard enough just sharing a restaurant bill. Try sharing that bill week in, week out and you might encounter more than a few snares. But not with Hapu. Simply set your rates and our automated payment system takes care of the rest. You need enver talk money or who owes what.</p>
-        <a href="">Read how Bridget’s share (without Hapu) ended over $15</a>
+        <h2 class="title">Shared payments made simple</h2>
+        <p class="content">Sometimes it’s hard enough just sharing a restaurant bill. Try sharing that bill week in, week out and you might encounter more than a few snares. But not with Hapu. Simply set your rates and our automated payment system takes care of the rest. You need enver talk money or who owes what.</p>
+        <a href="" class="link">Read how Bridget’s share (without Hapu) ended over $15</a>
       </div>
     </div>
 
     <div class="separator"></div>
 
-    <div class="container framework">
-      <h2>A framework built for the long term</h2>
-      <p>Childcare is for the long term. And you need a framework you can count on that gives your share long term viability and success. That’s why we’ve defined Hapu around our three tribal principles; clearly defined process, transparency over money and equality of participation.</p>
-      <a href="">Read how Hapu’s tribal background defines our app </a>
+    <div class="container frameworkContainer">
+      <h2 class="title">A framework built for the long term</h2>
+      <p class="content">Childcare is for the long term. And you need a framework you can count on that gives your share long term viability and success. That’s why we’ve defined Hapu around our three tribal principles; clearly defined process, transparency over money and equality of participation.</p>
+      <a href="" class="link">Read how Hapu’s tribal background defines our app </a>
       <img src="img/about-system-interface.png" alt="Interface of the system">
     </div>
 
     <div class="separator"></div>
 
-    <div class="container comingSoon">
+    <div class="container comingSoonContainer">
       <img src="img/aout-coming-soon-ilustration.svg" alt="Coming soon ilustration">
-      <h2>Coming soon: Nanny Share Daily Diary!</h2>
-      <p>With the Hapu daily diary your nanny will be able to update you and your sharers with photos and commentary of the day. You and sharers will receive notifications and you’ll be able to login to view the daily adventures fo your little ones. We can’t wait!</p>
+      <h2 class="title">Coming soon: Nanny Share Daily Diary!</h2>
+      <p class="content">With the Hapu daily diary your nanny will be able to update you and your sharers with photos and commentary of the day. You and sharers will receive notifications and you’ll be able to login to view the daily adventures fo your little ones. We can’t wait!</p>
     </div>
   </section>
+
+  <section class=" becomeNannyBg">
+    <div class="container becomeNannyContainer">
+      <h2 class="title">Become a nanny share host</h2>
+      <p class="content">Takes less than 5 minutes to get started</p>
+      <a href="">
+        <div class="calendarButton">
+          <img src="img/calendar-icon.svg" alt="Calendar icon">
+          <div class="calendarText">
+            <h4>Create Your Nanny Share</h4>
+            <p>Takes less than 5 minutes</p>
+          </div>
+        </div>
+      </a>
+      <a href="" class="link">Or browse local nanny-shares</a>
+    </div>
+
+  </section>
+
+  <footer class="footerBg">
+    <div class="container">
+      <div class="footerContainer">
+        <img src="img/footer-logo-hapu.svg" alt="Hapu logo">
+        <ul class="menuFooter">
+          <a href="">
+            <li>Share Your Nanny</li>
+          </a>
+          <a href="">
+            <li>Our Story</li>
+          </a>
+          <a href="">
+            <li>Blog</li>
+          </a>
+          <a href="">
+            <li>Terms & Privacy</li>
+          </a>
+        </ul>
+        <ul class="socialWeb">
+          <a href="">
+            <li><img src="img/footer-facebook-icon.svg" alt="Facebook icon"></li>
+          </a>
+          <a href="">
+            <li><img src="img/footer-twitter-icon.svg" alt="Twitter icon"></li>
+          </a>
+          <a href="">
+            <li><img src="img/footer-instagram-icon.svg" alt="Instagram icon"></li>
+          </a>
+        </ul>
+      </div>
+      <div class="separator"></div>
+      <div class="copyRight">
+        <h6>Copyright © 2017 Hapu PTY Limited All rights reserved</h6>
+      </div>
+    </div>
+
+  </footer>
 </body>
 
 </html>

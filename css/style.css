@@ -1,0 +1,657 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* === INTRO */
+.imgBgIntro {
+  position: absolute;
+  width: 100%;
+  height: 616px;
+  background: linear-gradient(
+    314.72deg,
+    #c86dd7 -1.5%,
+    #7e49c3 39.43%,
+    #5912ac 86.02%
+  );
+  z-index: -1;
+}
+
+.introBg {
+  height: 616px;
+  background: url('/img/intro-bg.png') no-repeat center;
+  background-size: cover;
+}
+
+/* === INTRO/HEADER */
+.headerMenu {
+  width: 100%;
+  display: flex;
+  padding: 0 20px 0 32px;
+}
+
+.menuOptions {
+  display: flex;
+  width: 398px;
+  justify-content: space-between;
+  margin: 28px auto 0 37px;
+}
+
+.buttonsHeader {
+  width: 304px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.becomeNannyButton {
+  width: 234px;
+  height: 44px;
+  background: #00c88c;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menuOptions a,
+.becomeNannyButton,
+.buttonsHeader a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 20px;
+}
+
+/* === CONTAINER */
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === INTRO/INTRO CONTENT */
+
+.introContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 106px;
+}
+
+.introTitle {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.introContent {
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.mediaPlayer {
+  height: 48px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.mediaPlayerContent {
+  margin: 0 0 0 16px;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.introRightContent {
+  margin-right: 100px;
+}
+
+/* === NOTE */
+
+.note {
+  width: 100%;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  font-size: 16px;
+  line-height: auto;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e20a4;
+  text-decoration-line: underline;
+}
+
+.note p {
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  margin-left: 2px;
+}
+
+/* === ABOUT SERVICE */
+
+.aboutService {
+  background-color: #f2f2f2;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* === ABOUT SERVICE/SHARE HOME */
+.shareHomeContainer {
+  padding-top: 120px;
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 56px;
+  color: #3d3d3d;
+}
+
+.shareHomeText {
+  max-width: 444px;
+  justify-self: end;
+}
+
+.shareHomeText p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* === ABOUT SERVICE/SEPARATOR */
+.separator {
+  width: 784px;
+  height: 2px;
+  background-color: #dfdfdf;
+  margin: 0 auto;
+}
+
+/* === ABOUT SERVICE/FIND NANNY */
+.findNannyContainer {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  align-items: center;
+  color: #3d3d3d;
+}
+
+.secondTitle {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #3d3d3d;
+}
+
+.secondContent {
+  margin-bottom: 74px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.formRegister input {
+  width: 232px;
+  height: 48px;
+  margin-right: 12px;
+  padding: 14px 20px;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.formRegister button {
+  width: 96px;
+  height: 48px;
+  background-color: #00c88c;
+  border-radius: 4px;
+  color: #fff;
+}
+
+/* === ABOUT SERVICE/SIMPLE PAYMENT */
+.simplePaymentContainer {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 44px;
+}
+
+.simplePaymentContainer img {
+  max-width: 456px;
+  justify-self: end;
+}
+
+.paymentText {
+  width: 484px;
+  color: #3d3d3d;
+}
+
+.paymentText .title {
+  margin-bottom: 40px;
+}
+
+.paymentText .content {
+  margin-bottom: 40px;
+}
+
+/* === ABOUT SERVICE/FRAMEWORK */
+.frameworkContainer {
+  margin-top: 64px;
+  color: #3d3d3d;
+  align-items: center;
+}
+
+.frameworkContainer .title {
+  margin-bottom: 40px;
+}
+
+.frameworkContainer .content {
+  width: 784px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.frameworkContainer .link {
+  margin-bottom: 64px;
+}
+
+.frameworkContainer img {
+  max-width: 984px;
+  margin-bottom: 104px;
+}
+
+/* === ABOUT SERVICE/COMING SOON */
+.comingSoonContainer {
+  margin-top: 96px;
+  align-items: center;
+  color: #3d3d3d;
+}
+
+.comingSoonContainer img {
+  max-width: 216px;
+  margin-bottom: 40px;
+}
+
+.comingSoonContainer .title {
+  margin-bottom: 40px;
+}
+
+.comingSoonContainer .content {
+  width: 784px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+/* === BECOME NANNY */
+.becomeNannyBg {
+  background-color: #fff;
+}
+
+.becomeNannyContainer {
+  padding: 80px 0 82px 0;
+  align-items: center;
+}
+
+.becomeNannyContainer .title {
+  margin-bottom: 16px;
+}
+
+.becomeNannyContainer .content {
+  margin-bottom: 32px;
+}
+
+.calendarButton {
+  width: 304px;
+  height: 68px;
+  margin-bottom: 24px;
+  padding: 19px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5e20a4;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.calendarButton h4 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.calendarButton p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+/* === FOOTER */
+.footerBg {
+  background-color: #fff;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.menuFooter {
+  width: 412px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.menuFooter a {
+  color: #3d3d3d;
+}
+
+.socialWeb {
+  width: 167px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerBg .separator {
+  display: none;
+}
+
+.copyRight {
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3d3d3d;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+@media only screen and (min-width: 641px) {
+  /* === INTRO */
+  .introLeftContent {
+    width: 584px;
+    color: #fff;
+    margin-top: 36px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  /* === INTRO */
+  .imgBgIntro {
+    height: 540px;
+  }
+
+  .introBg {
+    height: 540px;
+    background: url('/img/intro-mobile-bg.png') no-repeat center;
+  }
+
+  /* === INTRO/HEADER */
+  .headerMenu {
+    padding: 0 16px;
+  }
+
+  .menuOptions {
+    display: none;
+  }
+
+  .buttonsHeader {
+    width: 234px;
+    margin-left: auto;
+  }
+
+  .buttonsHeader a {
+    display: none;
+  }
+
+  /* === CONTAINER */
+  .container {
+    width: 330px;
+  }
+
+  /* === INTRO/INTRO CONTENT */
+
+  .introContainer {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 92px;
+  }
+
+  .introLeftContent {
+    color: #fff;
+  }
+
+  .introTitle {
+    width: 272px;
+    margin: 0 auto;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .introContent {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .mediaPlayer {
+    margin-top: 78px;
+  }
+
+  .introRightContent {
+    display: none;
+  }
+
+  /* === NOTE */
+  .note {
+    padding: 32px 0;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .note .link {
+    width: 212px;
+    margin: 16px auto 12px auto;
+  }
+
+  .note p {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+
+  /* === ABOUT SERVICE */
+
+  .title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  /* === ABOUT SERVICE/SHARE HOME */
+  .shareHomeContainer {
+    padding: 64px 0;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 0;
+  }
+
+  .shareHomeText {
+    width: 330px;
+    text-align: center;
+  }
+
+  .shareHomeText .content {
+    margin: 16px 0 24px 0;
+  }
+
+  .shareHomeContainer img {
+    width: 330px;
+    grid-row: 1;
+    margin-bottom: 24px;
+  }
+
+  /* === ABOUT SERVICE/SEPARATOR */
+  .separator {
+    width: 328px;
+  }
+
+  /* === ABOUT SERVICE/FIND NANNY */
+  .secondTitle {
+    text-align: center;
+  }
+
+  .secondContent {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .formRegister input {
+    width: 328px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .formRegister button {
+    width: 328px;
+    margin-top: 8px;
+  }
+
+  /* === ABOUT SERVICE/SIMPLE PAYMENT */
+  .simplePaymentContainer {
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .simplePaymentContainer img {
+    width: 330px;
+    margin-bottom: 40px;
+    justify-self: initial;
+  }
+
+  .paymentText {
+    width: 330px;
+    text-align: center;
+  }
+
+  .paymentText .title {
+    width: 226px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .paymentText .content {
+    margin-bottom: 24px;
+  }
+
+  /* === ABOUT SERVICE/FRAMEWORK */
+  .frameworkContainer {
+    text-align: center;
+  }
+
+  .frameworkContainer .title {
+    width: 243px;
+    margin-bottom: 16px;
+  }
+
+  .frameworkContainer .content {
+    width: 330px;
+    margin-bottom: 24px;
+  }
+
+  .frameworkContainer img {
+    display: none;
+  }
+
+  /* === ABOUT SERVICE/COMING SOON */
+  .comingSoonContainer {
+    margin-top: 64px;
+  }
+
+  .comingSoonContainer img {
+    margin-bottom: 24px;
+  }
+
+  .comingSoonContainer .title {
+    margin-bottom: 16px;
+  }
+
+  .comingSoonContainer .content {
+    width: 330px;
+    margin-bottom: 64px;
+  }
+
+  /* === BECOME NANNY */
+  .becomeNannyContainer {
+    padding: 40px 0 48px 0;
+  }
+
+  .becomeNannyContainer .title {
+    margin-bottom: 1px;
+  }
+
+  .becomeNannyContainer .content {
+    margin-bottom: 24px;
+  }
+
+  /* === FOOTER */
+  .footerContainer {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .menuFooter {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menuFooter a {
+    margin-right: 32px;
+    margin-bottom: 17px;
+  }
+
+  .socialWeb {
+    margin-top: 7px;
+  }
+
+  .footerBg .separator {
+    display: initial;
+  }
+
+  .copyRight {
+    margin-top: 24px;
+    padding-bottom: 24px;
+  }
+}
